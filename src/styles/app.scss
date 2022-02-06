@@ -1,0 +1,16 @@
+@import "./global.scss";
+
+#container-primary {
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--bg);
+
+
+  #header-top {
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    background: var(--bg-accent);
+  }
+}
