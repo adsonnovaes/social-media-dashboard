@@ -1,4 +1,3 @@
-import { useState } from "react";
 import useTheme from "../../hooks/useTheme";
 
 import './styles.scss';
@@ -10,7 +9,7 @@ export function ToggleButton() {
     <div className="toggle-content">
       {
         theme === "dark-mode" ?
-          <input type="checkbox" id="toggle" className="toggle-checkbox" onClick={themeToggle} checked />
+          <input type="checkbox" id="toggle" className="toggle-checkbox" onClick={themeToggle} defaultChecked />
           :
           <input type="checkbox" id="toggle" className="toggle-checkbox" onClick={themeToggle} />
       }

@@ -10,7 +10,7 @@
 
   --facebook: hsl(208, 92%, 53%);
   --twitter: hsl(203, 89%, 53%);
-  --instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  // --instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
   --youTube: hsl(348, 97%, 39%);
 
   --toggle-gradient: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
@@ -22,7 +22,8 @@
     --bg-accent: hsl(232, 19%, 15%);
 
     --card: hsl(228, 28%, 20%);
-    --card-accent: hsl(228,26%,27%);
+    --card-accent: hsl(228, 26%, 27%);
+
     --text: hsl(0, 0%, 100%);
     --accent-text: hsl(228, 34%, 66%);
   }
@@ -33,7 +34,7 @@
     --bg-accent: hsl(225, 100%, 98%);
 
     --card: hsl(227, 47%, 96%);
-    --card-accent: hsl(232,33%,91%);
+    --card-accent: hsl(232, 33%, 91%);
 
     --text: hsl(230, 17%, 14%);
     --accent-text: hsl(228, 12%, 44%);
@@ -41,6 +42,7 @@
 }
 h1,
 h2,
-span {
+span,
+strong {
   font-family: Inter, sans-serif;
 }

@@ -1,4 +1,3 @@
-import { ThemeContextProvider } from './contexts/themeContext';
 import useTheme from './hooks/useTheme';
 import { Router } from './routes';
 

@@ -1,4 +1,4 @@
-import { createContext, useState, ReactNode, useEffect } from 'react';
+import { createContext, ReactNode } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 type ThemeContextData = {
@@ -16,7 +16,6 @@ export function ThemeContextProvider({ children }: ThemeContextProviderProps) {
 
   const [theme, setTheme] = useLocalStorage('theme', 'dark-mode');
 
-  console.log(theme);
   function themeToggle() {
     if (theme === 'dark-mode') {
       setTheme('light-mode');

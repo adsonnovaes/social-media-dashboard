@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "nickname": "@nathanf",
+    "followers": 1987,
+    "followersOverview": 12,
+    "type": "facebook",
+    "status": true
+  },
+  {
+    "id": "2",
+    "nickname": "@nathanf",
+    "followers": 1044,
+    "followersOverview": 99,
+    "type": "twitter",
+    "status": true
+  },
+  {
+    "id": "3",
+    "nickname": "@realnathanf",
+    "followers": 11,
+    "followersOverview": 1099,
+    "type": "instagram",
+    "status": true
+  },
+  {
+    "id": "4",
+    "nickname": "Nathan F.",
+    "followers": 8239,
+    "followersOverview": 144,
+    "type": "youtube",
+    "status": false
+  }
+]
