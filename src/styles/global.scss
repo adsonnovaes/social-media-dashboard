@@ -15,6 +15,8 @@
 
   --toggle-gradient: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 
+  --toggle: hsl(230, 22%, 74%);
+
   // Estilização do mode Dark
 
   .dark-mode {
@@ -47,7 +49,7 @@ strong {
   font-family: Inter, sans-serif;
 }
 
-body {  
+body {
   overflow-x: hidden;
 }
 
