@@ -1,5 +1,26 @@
-@import '../../styles/global.scss';
-
 #container-header {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h1 {
+    color: var(--text);
+  }
+
+  span {
+    color: var(--accent-text);
+    font-weight: bold;
+  }
+
+  #theme-color {
+    color: var(--text);
+  }
+
+  #toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    padding-top: 0.4rem;
+  }
 }

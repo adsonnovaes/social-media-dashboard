@@ -1,5 +1,3 @@
-@import "./global.scss";
-
 #container-primary {
   width: 100vw;
   height: 100vh;
@@ -12,5 +10,8 @@
     height: 15rem;
     position: relative;
     background: var(--bg-accent);
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
 }
