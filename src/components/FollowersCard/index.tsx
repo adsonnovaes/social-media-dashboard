@@ -8,6 +8,7 @@ import { ReactComponent as InstagramSvg } from '../../assets/icon-instagram.svg'
 import { ReactComponent as TwitterSvg } from '../../assets/icon-twitter.svg';
 import { ReactComponent as YoutubeSvg } from '../../assets/icon-youtube.svg';
 
+
 import './styles.scss';
 
 type Props = {

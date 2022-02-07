@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "title": "Page Views",
+    "total": "87",
+    "percent": "3",
+    "type": "facebook",
+    "status": true
+  },
+  {
+    "id": "2",
+    "title": "Likes",
+    "total": "52",
+    "percent": "2",
+    "type": "facebook",
+    "status": false
+  },
+  {
+    "id": "3",
+    "title": "Likes",
+    "total": "5462",
+    "percent": "2257",
+    "type": "instagram",
+    "status": true
+  },
+  {
+    "id": "4",
+    "title": "Profile Views",
+    "total": "52k",
+    "percent": "1375",
+    "type": "instagram",
+    "status": true
+  },
+  {
+    "id": "5",
+    "title": "Retweets",
+    "total": "117",
+    "percent": "303",
+    "type": "twitter",
+    "status": true
+  },
+  {
+    "id": "6",
+    "title": "Likes",
+    "total": "507",
+    "percent": "553",
+    "type": "twitter",
+    "status": true
+  },
+  {
+    "id": "7",
+    "title": "Likes",
+    "total": "107",
+    "percent": "19",
+    "type": "youtube",
+    "status": false
+  },
+  {
+    "id": "8",
+    "title": "Total Views",
+    "total": "1407",
+    "percent": "12",
+    "type": "youtube",
+    "status": false
+  }
+]
