@@ -13,4 +13,12 @@
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
   }
+
+  @media (max-width: 375px) {
+    height: 149.1875rem;
+  }
+
+  @media (min-width: 376px) and (max-width: 860px) {
+    height: 80rem;
+  }
 }
